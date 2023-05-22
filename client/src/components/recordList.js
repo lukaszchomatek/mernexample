@@ -26,7 +26,7 @@ const Record = ({ record, deleteRecord }) => (
 );
 
 export default function RecordList() {
-  const apiURL = "https://employeemern.herokuapp.com/";
+  const apiURL = "http://localhost:5000/";
 
   //local backend
   //const localURL = "http://localhost:5000/";
